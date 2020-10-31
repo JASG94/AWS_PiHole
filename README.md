@@ -6,13 +6,13 @@
 In order to use it Terraform v0.13.5 (not tested in other versions) will be needed
 
 ## Usage
-In order to have it deployed well need to run:
+In order to have it deployed:
 ```sh
 $ git clone https://github.com/JASG94/AWS_PiHole.git
 $ cd AWS_PiHole
 $ terraform init
 ```
-In order to continue we need an AWS created with SSH Keys and configured in our laptop. Also AWS credentials should be configured.
+To continue, an AWS account created with SSH Keys and configured in our laptop is required. Also AWS credentials should be configured.
 
 The deployment could be customized by the following variables in variables.tf file:
 ```
