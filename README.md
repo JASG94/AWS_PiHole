@@ -34,6 +34,9 @@ variable "ssh_key" {
   default     = "/home/javi/ssh_keys/aws.pem"
 }
 ```
+
+Recommendable to change PiHole admin password which can be found in /files/docker-compose.yml as WEBPASSWORD
+
 Once configured, to proceed with the deployment:
 ```sh
 $ terraform apply --autoaprove
